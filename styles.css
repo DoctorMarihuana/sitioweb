@@ -1,0 +1,108 @@
+
+body{
+    margin: 0;
+    background-color: rgb(255, 245, 190);
+}
+.container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(70, 65, 61);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 7%;
+}
+.icon {
+    font-size: 40px;/* agranda el icono*/
+}
+.icon i {
+    margin-left: 10px;
+    color: white; 
+}
+.links {
+    margin-left: auto; /* Mueve los enlaces hacia el final */
+    margin-right: 15px;
+    margin-top: 10px; /* Agrega margen superior a los enlaces */
+}
+.links a {
+    margin-left: 20px;   /* separa los links */
+    color: white; 
+    text-decoration: none;
+}
+
+ /* segunda parte*/
+
+ .containerA {  
+    display: flex;
+    align-items: center; /* Centra los elementos horizontalmente */
+    text-align:justify; /* Centra el texto dentro del contenedor */
+    margin-left: 30%; /* Mueve los elementos hacia la derecha */
+}
+h2 {
+    margin-top: 100px;
+}
+.contenedorF {
+    display: flex;
+    align-items: center; /* Centra los elementos verticalmente */   
+}
+.foto img {
+    margin-top: 160px; /* Añade margen en la parte superior de la imagen */
+    border-radius: 10px;
+    max-width: 40%; /* Establece el ancho máximo de la imagen al 50% del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto original */
+    display: block; /* Evita cualquier espacio adicional alrededor de la imagen */
+    margin-left: 20px; /* Añade un pequeño espacio entre la imagen y el texto */
+    margin-bottom: 60px;
+}
+.Contenido {
+    flex: 1; /* Permite que el contenido ocupe el espacio restante */
+}
+
+/* Tercera parte*/
+
+.containerB {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 20px; /* Ajusta el margen superior si es necesario */
+}
+
+.Paisaje img {
+    width: 100%; /* Establece el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto original */
+}
+
+ /* ultima parte*/
+
+ .containerC {
+    background-color: rgb(70, 65, 61);
+    bottom: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 120px;
+}
+.iconF {
+    font-size: 40px;/* agranda el icono*/
+    order: 1;
+}
+.iconF i {
+    color: white;
+    margin-right: 10px;
+}
+
+.linksfinal p {
+    margin-left: 10px;
+    color: rgb(255, 187, 0);
+}
+
+.linksfinal {
+    display: flex;
+    flex-direction: column;
+}
+.linksfinal a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
